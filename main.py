@@ -5,7 +5,7 @@ from titanicSpaceShip.pipeline.stage_03_training import ModelTrainingPipeline
 from titanicSpaceShip.pipeline.stage_04_evaluation import EvaluationPipeline
 
 STAGE_NAME = "Data Ingestion stage"
-
+ 
 try:
     logger.info(f">>>>>>> stage {STAGE_NAME} started <<<<<")
     obj = DataIngestionTrainingPipeline()
