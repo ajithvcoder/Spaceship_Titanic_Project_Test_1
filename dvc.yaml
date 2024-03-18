@@ -1,11 +1,4 @@
 stages:
-  data_ingestion:
-    cmd: python src/titanicSpaceShip/pipeline/stage_01_data_ingestion.py
-    deps:
-      - src/titanicSpaceShip/pipeline/stage_01_data_ingestion.py
-      - config/config.yaml
-    outs:
-      - artifacts/data_ingestion/data_spaceShip.csv
 
   prepare_base_model:
     cmd: python src/titanicSpaceShip/pipeline/stage_02_prepare_base_model.py
