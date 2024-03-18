@@ -6,7 +6,7 @@ from titanicSpaceShip.pipeline.predict import PredictionPipeline
 # from titanicSpaceShip.components import data_validation
 from titanicSpaceShip import logger
 import signal
-import logging
+import logging 
 
 flask_logger = logging.getLogger()
 
